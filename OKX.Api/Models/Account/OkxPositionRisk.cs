@@ -55,7 +55,10 @@ public class OkxAccountPositionRiskPositionData
 
     [JsonProperty("posCcy")]
     public string PositionCurrency { get; set; }
-
+    
+    [JsonProperty("avgPx")]
+    public string AvgPrice { get; set; }
+    
     [JsonProperty("ccy")]
     public string Currency { get; set; }
 
